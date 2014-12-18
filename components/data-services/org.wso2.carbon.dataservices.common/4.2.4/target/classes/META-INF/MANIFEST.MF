@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Export-Package: org.wso2.carbon.dataservices.common;version="4.2.4",or
+ g.wso2.carbon.dataservices.common.conf;uses:="javax.xml.bind.annotati
+ on";version="4.2.4"
+JAVA_1_6_HOME: /opt/jdk1.6.0_25
+Built-By: tharindud
+Tool: Bnd-1.43.0
+Bundle-Name: org.wso2.carbon.dataservices.common
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: WSO2 Inc
+DynamicImport-Package: *
+Build-Jdk: 1.6.0_45
+Bundle-Version: 4.2.4
+Bnd-LastModified: 1418817723078
+Bundle-ManifestVersion: 2
+Bundle-Description: WSO2 Data Services Common Bundle
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0
+Import-Package: javax.xml.bind.annotation;resolution:=optional
+Bundle-DocURL: http://wso2.org
+Bundle-SymbolicName: org.wso2.carbon.dataservices.common
+

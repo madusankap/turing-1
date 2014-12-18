@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: net.sf.saxon.wso2:saxon:8.9.0.wso2v2">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/net/sf/saxon/wso2/saxon/8.9.0.wso2v2/saxon-8.9.0.wso2v2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/net/sf/saxon/wso2/saxon/8.9.0.wso2v2/saxon-8.9.0.wso2v2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/net/sf/saxon/wso2/saxon/8.9.0.wso2v2/saxon-8.9.0.wso2v2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

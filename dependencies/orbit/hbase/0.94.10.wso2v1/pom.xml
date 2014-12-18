@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ ~ Copyright (c) WSO2 Inc. (http://wso2.com) All Rights Reserved.
+ ~
+ ~ Licensed under the Apache License, Version 2.0 (the "License");
+ ~ you may not use this file except in compliance with the License.
+ ~ You may obtain a copy of the License at
+ ~
+ ~      http://www.apache.org/licenses/LICENSE-2.0
+ ~
+ ~ Unless required by applicable law or agreed to in writing, software
+ ~ distributed under the License is distributed on an "AS IS" BASIS,
+ ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ ~ See the License for the specific language governing permissions and
+ ~ limitations under the License.
+-->
+
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <parent>
+        <groupId>org.wso2.carbon</groupId>
+        <artifactId>carbon-dependents</artifactId>
+        <version>4.2.0</version>
+        <relativePath>../../../pom.xml</relativePath>
+    </parent>
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.apache.hbase.wso2</groupId>
+    <artifactId>hbase</artifactId>
+    <packaging>bundle</packaging>
+    <name>hbase.wso2</name>
+    <version>0.94.10.wso2v1</version>
+    <description>
+        This bundle will export packages from hbase
+    </description>
+    <url>http://wso2.org</url>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.hbase</groupId>
+            <artifactId>hbase</artifactId>
+            <version>0.94.10</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.felix</groupId>
+                <artifactId>maven-bundle-plugin</artifactId>
+                <extensions>true</extensions>
+                <configuration>
+                    <instructions>
+                        <Bundle-SymbolicName>${project.artifactId}</Bundle-SymbolicName>
+                        <Bundle-Name>${project.artifactId}</Bundle-Name>
+                        <Export-Package>
+                            org.apache.hadoop.hbase.*
+                        </Export-Package>
+                        <Import-Package>
+                            !com.google.protobuf.*,
+                            !com.sun.jersey.api.*,
+                            !javax.ws.*,
+                            !org.apache.avro.ipc.specific.*,
+                            !org.apache.hadoop.security.authentication.util.*,
+                            !org.apache.jasper.runtime.*,
+                            !org.apache.jute.*,
+                            !org.apache.thrift.*,
+                            !org.apache.zookeeper.*,
+                            !org.jamon.*,
+                            !com.sun.jersey.spi.container.servlet.*,
+                            !org.mortbay.*,
+                            !sun.misc.*,
+                            org.slf4j;resolution:=optional,
+                            *;resolution:=optional
+                        </Import-Package>
+                        <!--<DynamicImport-Package>*</DynamicImport-Package>-->
+                    </instructions>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

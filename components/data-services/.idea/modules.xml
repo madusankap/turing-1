@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/data-services.iml" filepath="$PROJECT_DIR$/data-services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/org.wso2.carbon.dataservices.common/4.2.4/org.wso2.carbon.dataservices.common.iml" filepath="$PROJECT_DIR$/org.wso2.carbon.dataservices.common/4.2.4/org.wso2.carbon.dataservices.common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/org.wso2.carbon.dataservices.core/4.2.4/org.wso2.carbon.dataservices.core.iml" filepath="$PROJECT_DIR$/org.wso2.carbon.dataservices.core/4.2.4/org.wso2.carbon.dataservices.core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/org.wso2.carbon.dataservices.sql.driver/4.2.1/org.wso2.carbon.dataservices.sql.driver.iml" filepath="$PROJECT_DIR$/org.wso2.carbon.dataservices.sql.driver/4.2.1/org.wso2.carbon.dataservices.sql.driver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/org.wso2.carbon.dataservices.task/4.2.1/org.wso2.carbon.dataservices.task (2).iml" filepath="$PROJECT_DIR$/org.wso2.carbon.dataservices.task/4.2.1/org.wso2.carbon.dataservices.task (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/org.wso2.carbon.dataservices.task.ui/4.2.1/org.wso2.carbon.dataservices.task.ui.iml" filepath="$PROJECT_DIR$/org.wso2.carbon.dataservices.task.ui/4.2.1/org.wso2.carbon.dataservices.task.ui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/org.wso2.carbon.dataservices.ui/4.2.4/org.wso2.carbon.dataservices.ui.iml" filepath="$PROJECT_DIR$/org.wso2.carbon.dataservices.ui/4.2.4/org.wso2.carbon.dataservices.ui.iml" />
+    </modules>
+  </component>
+</project>

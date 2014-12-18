@@ -1,0 +1,50 @@
+Manifest-Version: 1.0
+Service-Component: OSGI-INF/serviceComponents.xml
+Export-Package: org.wso2.carbon.dataservices.task;uses:="org.apache.ax
+ is2.description,org.apache.commons.logging,org.wso2.carbon.ntask.solu
+ tions.webservice,org.apache.axis2,org.wso2.carbon.ntask.core.service,
+ org.wso2.carbon.core,org.wso2.carbon.ntask.common,org.wso2.carbon.dat
+ aservices.core.description.operation,org.wso2.carbon.ntask.core,org.a
+ pache.axis2.engine,org.wso2.carbon.utils.deployment,org.wso2.carbon.d
+ ataservices.core.engine,org.wso2.carbon.context,org.wso2.carbon.ntask
+ .core.internal,org.wso2.carbon.dataservices.core,org.wso2.carbon.core
+ .multitenancy.utils,org.apache.axis2.context,javax.xml.namespace,org.
+ wso2.carbon.utils,org.wso2.carbon.dataservices.core.tools,org.apache.
+ axiom.om";version="4.2.0"
+JAVA_1_6_HOME: /opt/jdk1.6.0_25
+Built-By: tharindud
+Tool: Bnd-1.43.0
+Bundle-Name: org.wso2.carbon.dataservices.task
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: WSO2 Inc
+DynamicImport-Package: *
+Build-Jdk: 1.6.0_45
+Bundle-Version: 4.2.0
+Bnd-LastModified: 1418198984866
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0
+Bundle-Description: WSO2 Data Services Task Bundle
+Import-Package: javax.xml.namespace;resolution:=optional,org.apache.ax
+ iom.om;resolution:=optional;version="[1.2,2)",org.apache.axis2;versio
+ n="[1.6.1.wso2v1,1.7.0)",org.apache.axis2.context;version="[1.6.1.wso
+ 2v1,1.7.0)",org.apache.axis2.description;version="[1.6.1.wso2v1,1.7.0
+ )",org.apache.axis2.engine;version="[1.6.1.wso2v1,1.7.0)",org.apache.
+ commons.logging;resolution:=optional;version="[1.1,2)",org.osgi.servi
+ ce.component;resolution:=optional;version="[1.2,2)",org.wso2.carbon.c
+ ontext;resolution:=optional;version="[4.2,5)",org.wso2.carbon.core;re
+ solution:=optional;version="[4.2,5)",org.wso2.carbon.core.multitenanc
+ y.utils;resolution:=optional;version="[4.2,5)",org.wso2.carbon.datase
+ rvices.core;resolution:=optional;version="[4.2,5)",org.wso2.carbon.da
+ taservices.core.description.operation;resolution:=optional;version="[
+ 4.2,5)",org.wso2.carbon.dataservices.core.engine;resolution:=optional
+ ;version="[4.2,5)",org.wso2.carbon.dataservices.core.tools;resolution
+ :=optional;version="[4.2,5)",org.wso2.carbon.ntask.common;resolution:
+ =optional,org.wso2.carbon.ntask.core;resolution:=optional,org.wso2.ca
+ rbon.ntask.core.internal;resolution:=optional,org.wso2.carbon.ntask.c
+ ore.service;resolution:=optional,org.wso2.carbon.ntask.solutions.webs
+ ervice;resolution:=optional,org.wso2.carbon.utils;resolution:=optiona
+ l;version="[4.2,5)",org.wso2.carbon.utils.deployment;resolution:=opti
+ onal;version="[4.2,5)"
+Bundle-DocURL: http://wso2.org
+Bundle-SymbolicName: org.wso2.carbon.dataservices.task
+

@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Export-Package: org.wso2.carbon.apimgt.api.doc.model;version="1.2.2",o
+ rg.wso2.carbon.apimgt.api.model;uses:="org.wso2.carbon.apimgt.api,org
+ .json.simple";version="1.2.2",org.wso2.carbon.apimgt.api;uses:="org.w
+ so2.carbon.apimgt.api.model,org.wso2.carbon.apimgt.api.dto";version="
+ 1.2.2",org.wso2.carbon.apimgt.api.dto;uses:="org.wso2.carbon.apimgt.a
+ pi.model";version="1.2.2"
+JAVA_1_6_HOME: /opt/jdk1.6.0_25
+Built-By: tharindud
+Tool: Bnd-0.0.238
+Bundle-Name: org.wso2.carbon.apimgt.api
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: WSO2 Inc
+DynamicImport-Package: *
+Build-Jdk: 1.6.0_45
+Bundle-Version: 1.2.2
+Bnd-LastModified: 1418796749769
+Bundle-ManifestVersion: 2
+Bundle-Description: Platform Parent pom hold the properties, plugins w
+ hich are required to build carbon components, carbon features and pro
+ ducts
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0
+Import-Package: org.json.simple,org.wso2.carbon.apimgt.api;version="1.
+ 2.2",org.wso2.carbon.apimgt.api.doc.model;version="1.2.2",org.wso2.ca
+ rbon.apimgt.api.dto;version="1.2.2",org.wso2.carbon.apimgt.api.model;
+ version="1.2.2"
+Bundle-DocURL: http://wso2.org
+Bundle-SymbolicName: org.wso2.carbon.apimgt.api
+

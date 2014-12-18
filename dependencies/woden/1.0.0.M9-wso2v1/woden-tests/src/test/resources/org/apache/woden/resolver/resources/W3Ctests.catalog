@@ -1,0 +1,122 @@
+#  Licensed to the Apache Software Foundation (ASF) under one or more
+#  contributor license agreements.  See the NOTICE file distributed with
+#  this work for additional information regarding copyright ownership.
+#  The ASF licenses this file to You under the Apache License, Version 2.0
+#  (the "License"); you may not use this file except in compliance with
+#  the License.  You may obtain a copy of the License at
+# 
+#       http://www.apache.org/licenses/LICENSE-2.0
+# 
+#  Unless required by applicable law or agreed to in writing, software
+#  distributed under the License is distributed on an "AS IS" BASIS,
+#  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+#  See the License for the specific language governing permissions and
+#  limitations under the License.
+#
+###################################################################################################
+# XML Catalog file for external documents used within the w3c test-suite  
+# {referenced URI}={actual location}
+#
+# base location is <project-loc>/downloads/w3c.
+#
+# (use -Dorg.apache.woden.resolver.simpleresolver.baseURIs="file://<project-loc>/downloads/w3c/" 
+#  as a JVM argument, or add <project-loc>/downloads/w3c to classpath)
+#
+################################################################################################## 
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/bad/Chameleon-1B/accountInfo.xsd=documents/bad/Chameleon-1B/accountInfo.xsd
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/bad/Chameleon-1B/customerInfo.xsd=documents/bad/Chameleon-1B/customerInfo.xsd
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/bad/Chameleon-1B/getBalance.wsdl=documents/bad/Chameleon-1B/getBalance.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/bad/Chameleon-2B/getBalance.wsdl=documents/bad/Chameleon-2B/getBalance.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/bad/Import-1B/XSDImport.wsdl=documents/bad/Import-1B/XSDImport.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/bad/Import-2B/XSDImportInWSDL.wsdl=documents/bad/Import-2B/XSDImportInWSDL.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/bad/Import-3B/XSDImport2.wsdl=documents/bad/Import-3B/XSDImport2.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/bad/Interface-1B/Interface.wsdl=documents/bad/Interface-1B/Interface.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/bad/Interface-2B/Interface.wsdl=documents/bad/Interface-2B/Interface.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/bad/Interface-3B/Interface.wsdl=documents/bad/Interface-3B/Interface.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/bad/Service-1B/Service.wsdl=documents/bad/Service-1B/Service.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/bad/Service-2B/Service.wsdl=documents/bad/Service-2B/Service.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/bad/Service-12B/Service.wsdl=documents/bad/Service-12B/Service.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/bad/Service-13B/Service.wsdl=documents/bad/Service-13B/Service.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/bad/Service-14B/Service.wsdl=documents/bad/Service-14B/Service.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/bad/Service-15B/Service.wsdl=documents/bad/Service-15B/Service.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/bad/TicketAgent-1B/TicketAgent-bad.wsdl=documents/bad/TicketAgent-1B/TicketAgent-bad.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/Chameleon-1G/getBalance.wsdl=documents/good/Chameleon-1G/getBalance.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/Chameleon-2G/getBalance.wsdl=documents/good/Chameleon-2G/getBalance.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/Chameleon-3G/getBalance.wsdl=documents/good/Chameleon-3G/getBalance.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/Chameleon-4G/getBalance.wsdl=documents/good/Chameleon-4G/getBalance.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/Compound1-1G/compound1.wsdl=documents/good/Compound1-1G/compound1.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/CreditCardFaults-1G/use-credit-card-faults.wsdl=documents/good/CreditCardFaults-1G/use-credit-card-faults.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/CreditCardFaults-1G/resSvc.xsd=documents/good/CreditCardFaults-1G/resSvc.xsd
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/Echo-1G/echo.wsdl=documents/good/Echo-1G/echo.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/Echo-2G/echo.wsdl=documents/good/Echo-2G/echo.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/EchoComplexDocLit-1G/Axis2SampleDocLit.wsdl=documents/good/EchoComplexDocLit-1G/Axis2SampleDocLit.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/FlickrHTTP-1G/flickr.wsdl=documents/good/FlickrHTTP-1G/flickr.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/GreatH-1G/primer-hotelReservationService.wsdl=documents/good/GreatH-1G/primer-hotelReservationService.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/GreatH-2G/primer-hotelReservationService.wsdl=documents/good/GreatH-2G/primer-hotelReservationService.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/GreatH-3G/primer-hotelReservationService.wsdl=documents/good/GreatH-3G/primer-hotelReservationService.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/HTTPBinding-1G/Echo.wsdl=documents/good/HTTPBinding-1G/Echo.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/HTTPBinding-2G/Echo.wsdl=documents/good/HTTPBinding-2G/Echo.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/Import-1G/XSDImport.wsdl=documents/good/Import-1G/XSDImport.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/Import-1G/name.xsd=documents/good/Import-1G/name.xsd
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/Import-2G/XSDImport2.wsdl=documents/good/Import-2G/XSDImport2.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/Import-2G/name.xsd=documents/good/Import-2G/name.xsd
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/ImportedWSDL-1G/updateDetails.wsdl=documents/good/ImportedWSDL-1G/updateDetails.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/Include-1G/EchoImpl.wsdl=documents/good/Include-1G/EchoImpl.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/InOnlyMEP-1G/Oneway.wsdl=documents/good/InOnlyMEP-1G/Oneway.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/Interface-1G/Interface.wsdl=documents/good/Interface-1G/Interface.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/Interface-2G/Interface.wsdl=documents/good/Interface-2G/Interface.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/Interface-3G/Interface.wsdl=documents/good/Interface-3G/Interface.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/Interface-4G/Interface.wsdl=documents/good/Interface-4G/Interface.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/Interface-5G/Interface.wsdl=documents/good/Interface-5G/Interface.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/Interface-6G/Interface.wsdl=documents/good/Interface-6G/Interface.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/Interface-7G/Interface.wsdl=documents/good/Interface-7G/Interface.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/IRI-1G/iristyleinout.wsdl=documents/good/IRI-1G/iristyleinout.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/IRI-2G/iristyleinonly.wsdl=documents/good/IRI-2G/iristyleinonly.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/IRI-3G/iristyleinout.wsdl=documents/good/IRI-3G/iristyleinout.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/LocationTemplate-1G/SOAPservice.wsdl=documents/good/LocationTemplate-1G/SOAPservice.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/MessageMultipart-1G/HTTPservice.wsdl=documents/good/MessageMultipart-1G/HTTPservice.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/MessageTest-1G/SOAPservice.wsdl=documents/good/MessageTest-1G/SOAPservice.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/MessageTest-2G/HTTPservice.wsdl=documents/good/MessageTest-2G/HTTPservice.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/MessageTest-3G/HTTPservice.wsdl=documents/good/MessageTest-3G/HTTPservice.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/MessageTest-4G/SOAPservice.wsdl=documents/good/MessageTest-4G/SOAPservice.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/MessageTest-5G/SOAPservice.wsdl=documents/good/MessageTest-5G/SOAPservice.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/MessageTest-6G/SOAPservice.wsdl=documents/good/MessageTest-6G/SOAPservice.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/ModuleComposition-1G/SOAPservice.wsdl=documents/good/ModuleComposition-1G/SOAPservice.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/Multipart-1G/multipartstyleinout.wsdl=documents/good/Multipart-1G/multipartstyleinout.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/Multipart-2G/multipartstyleinonly.wsdl=documents/good/Multipart-2G/multipartstyleinonly.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/Multipart-3G/multipartstyleinout.wsdl=documents/good/Multipart-3G/multipartstyleinout.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/MultipleInlineSchemas-1G/retrieveItems.wsdl=documents/good/MultipleInlineSchemas-1G/retrieveItems.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/RPC-1G/rpcstyleinout.wsdl=documents/good/RPC-1G/rpcstyleinout.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/RPC-2G/rpcstyleinonly.wsdl=documents/good/RPC-2G/rpcstyleinonly.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/RPC-3G/rpcstyleinout.wsdl=documents/good/RPC-3G/rpcstyleinout.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/RPC-4G/rpcstyleinout.wsdl=documents/good/RPC-4G/rpcstyleinout.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/RPC-5G/rpcstyleinout.wsdl=documents/good/RPC-5G/rpcstyleinout.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/RPC-6G/rpcstyleinout.wsdl=documents/good/RPC-6G/rpcstyleinout.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/Schema-1G/string.wsdl=documents/good/Schema-1G/string.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/SchemaId-1G/schemaIds.wsdl=documents/good/SchemaId-1G/schemaIds.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/SchemaLocationFragment-1G/Items.wsdl=documents/good/SchemaLocationFragment-1G/Items.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/Service-1G/Service.wsdl=documents/good/Service-1G/Service.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/Service-2G/Service.wsdl=documents/good/Service-2G/Service.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/Service-3G/Service.wsdl=documents/good/Service-3G/Service.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/ServiceReference-1G/reservationList.wsdl=documents/good/ServiceReference-1G/reservationList.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/ServiceReference-1G/reservationList.xsd=documents/good/ServiceReference-1G/reservationList.xsd
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/ServiceReference-1G/reservationDetails.wsdl=documents/good/ServiceReference-1G/reservationDetails.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/ServiceReference-1G/reservationDetails.xsd=documents/good/ServiceReference-1G/reservationDetails.xsd
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/SOAPHeader-1G/SOAPservice.wsdl=documents/good/SOAPHeader-1G/SOAPservice.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/SparqlQuery-1G/sparql-protocol-query.wsdl=documents/good/SparqlQuery-1G/sparql-protocol-query.wsdl
+http\://www.w3.org/2005/09/sparql-protocol-types/#=documents/good/SparqlQuery-1G/sparql-protocol-types.xsd
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/SparqlQuerySimplified-1G/sparql-protocol-query.wsdl=documents/good/SparqlQuerySimplified-1G/sparql-protocol-query.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/Storage-1G/storage.wsdl=documents/good/Storage-1G/storage.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/Storage-2G/storage.wsdl=documents/good/Storage-2G/storage.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/Storage-3G/storage.wsdl=documents/good/Storage-3G/storage.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/Storage-4G/storage.wsdl=documents/good/Storage-4G/storage.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/Storage-5G/storage.wsdl=documents/good/Storage-5G/storage.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/TicketAgent-1G/TicketAgent.wsdl=documents/good/TicketAgent-1G/TicketAgent.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/TicketAgent-1G/TicketAgent.xsd=documents/good/TicketAgent-1G/TicketAgent.xsd
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/UnknownExtension-1G/Interface.wsdl=documents/good/UnknownExtension-1G/Interface.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/UnknownExtension-2G/Interface.wsdl=documents/good/UnknownExtension-2G/Interface.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/WeathSvc-1G/WeathSvc.wsdl=documents/good/WeathSvc-1G/WeathSvc.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/WSAddressing-1G/wsaTestService2.wsdl=documents/good/WSAddressing-1G/wsaTestService2.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/XsImport-1G/reservation.wsdl=documents/good/XsImport-1G/reservation.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/XsImport-2G/reservationDetails.wsdl=documents/good/XsImport-2G/reservationDetails.wsdl
+http\://dev.w3.org/cvsweb/~checkout~/2002/ws/desc/test-suite/documents/good/XsImport-3G/reservationDetails.wsdl=documents/good/XsImport-3G/reservationDetails.wsdl

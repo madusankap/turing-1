@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0">
+    <scr:component enabled="true" immediate="true" name="org.wso2.carbon.service.mgt.ServiceManagementServiceComponent">
+        <implementation class="org.wso2.carbon.service.mgt.internal.ServiceManagementServiceComponent"/>
+        <property name="service.pid" value="org.wso2.carbon.service.mgt.ServiceManagementServiceComponent"/>
+        <reference name="org.wso2.carbon.configCtx" interface="org.wso2.carbon.utils.ConfigurationContextService" cardinality="1..1" policy="dynamic" bind="setConfigurationContext" unbind="unsetConfigurationContext"/>
+        <reference name="org.wso2.carbon.base.serverConfig" interface="org.wso2.carbon.base.api.ServerConfigurationService" cardinality="1..1" policy="dynamic" bind="setServerConfiguration" unbind="unsetServerConfiguration"/>
+    </scr:component>
+</components>

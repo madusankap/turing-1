@@ -1,0 +1,57 @@
+Manifest-Version: 1.0
+Export-Package: org.apache.woden.internal.xpointer;uses:="org.apache.w
+ oden.internal,org.apache.woden.xpointer,org.apache.woden,org.w3c.dom"
+ ;version="1.0.0",org.apache.woden.internal.util.dom;uses:="org.apache
+ .woden.internal.util,org.apache.woden.wsdl20.xml,org.apache.woden,org
+ .w3c.dom,javax.xml.namespace";version="1.0.0",org.apache.woden.intern
+ al.resolver;uses:="javax.xml.transform,javax.xml.transform.stream,org
+ .apache.woden.resolver,org.apache.woden,javax.xml.transform.dom,org.w
+ 3c.dom";version="1.0.0",org.apache.woden.internal;uses:="org.apache.w
+ oden.internal.xpointer,org.apache.woden.wsdl20,org.apache.woden.types
+ ,org.apache.commons.logging,org.apache.woden.internal.resolver,org.ap
+ ache.woden.schema,org.apache.woden,javax.xml.namespace,org.xml.sax,or
+ g.apache.woden.internal.util,org.apache.woden.internal.schema,org.apa
+ che.woden.wsdl20.xml,org.apache.woden.wsdl20.enumeration,org.apache.w
+ oden.wsdl20.extensions,org.apache.ws.commons.schema,org.apache.woden.
+ internal.wsdl20.validation,org.apache.ws.commons.schema.resolver,org.
+ apache.woden.xpointer,org.apache.woden.resolver,javax.xml.parsers,org
+ .w3c.dom,org.apache.woden.internal.util.dom,org.apache.woden.internal
+ .wsdl20,org.apache.woden.xml";version="1.0.0"
+JAVA_1_6_HOME: /opt/jdk1.6.0_25
+Tool: Bnd-0.0.238
+Bundle-Name: Woden - DOM
+Created-By: 1.6.0_45 (Sun Microsystems Inc.)
+Bundle-Vendor: Apache Software Foundation
+Bundle-Version: 1.0.0
+Bnd-LastModified: 1418816910972
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-Description: The Woden project is a subproject of the Apache We
+ b Services Project to    develop a Java class library for reading, ma
+ nipulating, creating and writing WSDL documents,    initially to supp
+ ort WSDL 2.0 but with the longer term aim of supporting past, present
+  and    future versions of WSDL.    There are two main deliverables: 
+ an API and an implementation. The Woden API consists of    a set of J
+ ava interfaces. The WSDL 2.0-specific portion of the Woden API confor
+ ms to the    W3C WSDL 2.0 specification. The implementation will be a
+  high performance implementation    directly usable in other Apache p
+ rojects such as Axis2.
+Import-Package: javax.xml.namespace,javax.xml.parsers,javax.xml.transf
+ orm,javax.xml.transform.dom,javax.xml.transform.stream,org.apache.com
+ mons.logging,org.apache.woden;version="1.0",org.apache.woden.internal
+ ;version="1.0.0",org.apache.woden.internal.resolver;version="1.0.0",o
+ rg.apache.woden.internal.schema;version="1.0",org.apache.woden.intern
+ al.util;version="1.0",org.apache.woden.internal.util.dom;version="1.0
+ .0",org.apache.woden.internal.wsdl20;version="1.0",org.apache.woden.i
+ nternal.wsdl20.validation;version="1.0",org.apache.woden.internal.xpo
+ inter;version="1.0.0",org.apache.woden.resolver;version="1.0",org.apa
+ che.woden.schema;version="1.0",org.apache.woden.types;version="1.0",o
+ rg.apache.woden.wsdl20;version="1.0",org.apache.woden.wsdl20.enumerat
+ ion;version="1.0",org.apache.woden.wsdl20.extensions;version="1.0",or
+ g.apache.woden.wsdl20.xml;version="1.0",org.apache.woden.xml;version=
+ "1.0",org.apache.woden.xpointer;version="1.0",org.apache.ws.commons.s
+ chema;version="1.4",org.apache.ws.commons.schema.resolver;version="1.
+ 4",org.w3c.dom,org.xml.sax
+Bundle-SymbolicName: org.apache.woden.woden-impl-dom
+Bundle-DocURL: http://www.apache.org/
+

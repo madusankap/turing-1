@@ -1,0 +1,50 @@
+Manifest-Version: 1.0
+Export-Package: org.wso2.carbon.dataservices.task.ui;uses:="org.apache
+ .axis2,org.apache.commons.logging,org.wso2.carbon.dataservices.task.u
+ i.stub,org.wso2.carbon.dataservices.task.ui.stub.xsd,org.apache.axis2
+ .client,org.apache.axis2.context,javax.servlet,javax.servlet.http";ve
+ rsion="4.2.0",org.wso2.carbon.dataservices.task.ui.i18n;version="4.2.
+ 0",org.wso2.carbon.dataservices.task.ui.stub;uses:="org.wso2.carbon.d
+ ataservices.task.ui.stub.xsd,org.apache.axis2,org.apache.axis2.transp
+ ort,org.apache.axis2.client,org.apache.axis2.context,javax.xml.namesp
+ ace,org.apache.axiom.om,org.apache.axis2.description,org.apache.axiom
+ .soap,org.apache.axis2.util,org.apache.axis2.client.async,org.apache.
+ axis2.addressing,javax.xml.stream,org.apache.axis2.engine,org.apache.
+ axis2.databinding,org.apache.axis2.databinding.utils,org.apache.axis2
+ .databinding.utils.reader";version="4.2.0",org.wso2.carbon.dataservic
+ es.task.ui.stub.xsd;uses:="javax.xml.stream,org.apache.axis2.databind
+ ing.utils,org.apache.axis2.databinding,javax.xml.namespace,org.apache
+ .axis2.databinding.utils.reader,org.apache.axiom.om";version="4.2.0"
+JAVA_1_6_HOME: /opt/jdk1.6.0_25
+Built-By: tharindud
+Tool: Bnd-1.43.0
+Bundle-Name: org.wso2.carbon.dataservices.task.ui
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: WSO2 Inc
+Build-Jdk: 1.6.0_45
+Bundle-Version: 4.2.0
+Bnd-LastModified: 1418198989975
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0
+Bundle-Description: WSO2 Data Services Task UI Bundle
+Import-Package: javax.servlet;version="[2.6.0,3.0.0)",javax.servlet.ht
+ tp;version="[2.6.0,3.0.0)",javax.xml.namespace;version="0.0.0",javax.
+ xml.stream;resolution:=optional;version="[1.0,2)",org.apache.axiom.om
+ ;resolution:=optional;version="[1.2,2)",org.apache.axiom.soap;resolut
+ ion:=optional;version="[1.2,2)",org.apache.axis2;resolution:=optional
+ ;version="[1.6,2)",org.apache.axis2.addressing;resolution:=optional;v
+ ersion="[1.6,2)",org.apache.axis2.client;resolution:=optional;version
+ ="[1.6,2)",org.apache.axis2.client.async;resolution:=optional;version
+ ="[1.6,2)",org.apache.axis2.context;resolution:=optional;version="[1.
+ 6,2)",org.apache.axis2.databinding;resolution:=optional;version="[1.6
+ ,2)",org.apache.axis2.databinding.utils;resolution:=optional;version=
+ "[1.6,2)",org.apache.axis2.databinding.utils.reader;resolution:=optio
+ nal;version="[1.6,2)",org.apache.axis2.description;resolution:=option
+ al;version="[1.6,2)",org.apache.axis2.engine;resolution:=optional;ver
+ sion="[1.6,2)",org.apache.axis2.transport;resolution:=optional;versio
+ n="[1.6,2)",org.apache.axis2.util;resolution:=optional;version="[1.6,
+ 2)",org.apache.commons.logging;resolution:=optional;version="[1.1,2)"
+Bundle-DocURL: http://wso2.org
+Carbon-Component: UIBundle
+Bundle-SymbolicName: org.wso2.carbon.dataservices.task.ui
+

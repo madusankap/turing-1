@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- 
+ * Licensed to the Apache Software Foundation (ASF) under one or more
+ * contributor license agreements.  See the NOTICE file distributed with
+ * this work for additional information regarding copyright ownership.
+ * The ASF licenses this file to You under the Apache License, Version 2.0
+ * (the "License"); you may not use this file except in compliance with
+ * the License.  You may obtain a copy of the License at
+ * 
+ *     http://www.apache.org/licenses/LICENSE-2.0 
+ * 
+ * Unless required by applicable law or agreed to in writing, software 
+ * distributed under the License is distributed on an "AS IS" BASIS, 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ * See the License for the specific language governing permissions and 
+ * limitations under the License.
+-->
+<wsdl:description targetNamespace="http://example.org/nodefaultNS"
+    xmlns:tns="http://example.org/nodefaultNS"
+    xmlns:wsdl="http://www.w3.org/ns/wsdl">
+    
+    <wsdl:documentation>
+      <testcase>
+        Test that when the WSDL does not declare a default namespace,
+        no-namespace elements that extend wsdl:documentation are 
+        represented in Woden with a namespace URI of 'null'.
+      </testcase>
+    </wsdl:documentation>
+    
+    <wsdl:types>
+      <wsdl:documentation>
+        <docext>element docext should have a ns uri of null</docext>
+      </wsdl:documentation>
+    </wsdl:types>
+    
+    <wsdl:interface name="interface1">
+      <wsdl:documentation>
+        This is <docext>stuff</docext>.
+      </wsdl:documentation>
+    </wsdl:interface>
+    
+    <wsdl:binding name="binding1" interface="tns:interface1" type="urn:abc">
+      <wsdl:documentation>
+        This is more <docext>stuff</docext>
+      </wsdl:documentation>
+    </wsdl:binding>
+    
+    <wsdl:service name="service1" interface="tns:interface1">
+      <wsdl:documentation>
+        Enough <docext>stuff</docext>!
+      </wsdl:documentation>
+      <wsdl:endpoint name="endpoint1" binding="tns:binding1" address="urn:xyz" />
+    </wsdl:service>
+    
+</wsdl:description>

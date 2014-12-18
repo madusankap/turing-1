@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- 
+ * Licensed to the Apache Software Foundation (ASF) under one or more
+ * contributor license agreements.  See the NOTICE file distributed with
+ * this work for additional information regarding copyright ownership.
+ * The ASF licenses this file to You under the Apache License, Version 2.0
+ * (the "License"); you may not use this file except in compliance with
+ * the License.  You may obtain a copy of the License at
+ * 
+ *     http://www.apache.org/licenses/LICENSE-2.0 
+ * 
+ * Unless required by applicable law or agreed to in writing, software 
+ * distributed under the License is distributed on an "AS IS" BASIS, 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ * See the License for the specific language governing permissions and 
+ * limitations under the License.
+-->
+<description xmlns="http://www.w3.org/ns/wsdl"
+	targetNamespace="http://ws.apache.woden"
+	xmlns:tns="http://ws.apache.woden"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:wfoo= "http://www.w3.org/ns/wsdl/foo"
+	xsi:schemaLocation=
+	    "http://www.w3.org/ns/wsdl http://www.w3.org/ns/wsdl/wsdl20.xsd 
+	    http://www.w3.org/2001/XMLSchema http://www.w3.org/2001/XMLSchema.xsd">
+
+	<documentation>
+	    Used by FooBindingExtensionsTest to test the FooBindingExtensions implementation.
+	    This is not a valid WSDL 2.0 document and is not intended to be parsed with validation
+	    enabled. It contains only the elements and attributes required to test that Foo extensions
+	    to the wsdl:binding element are parsed correctly into the expected object model and can
+	    be accessed via the API. 
+	</documentation>
+
+	<interface name="interface0" />
+	
+    <interface name="interface1" />
+
+	<binding name="binding0"
+	  interface="tns:interface0"
+	  type="http://www.w3.org/ns/wsdl/foo"
+	  wfoo:bar="2">
+	  <documentation>
+	     {bar} should raise an error if wfoo:bar is not an odd number.
+	  </documentation>
+	</binding>
+	
+	<binding name="binding1"
+	  interface="tns:interface1"
+	  type="http://www.w3.org/ns/wsdl/foo"
+	  wfoo:bar="3"
+	  wfoo:baz="john" >
+	  <documentation>
+	     {bar} should be 3 if wfoo:bar is "3"
+	     {baz} should be "john" if wfoo:baz is "john"
+	  </documentation>
+	</binding>
+
+</description>

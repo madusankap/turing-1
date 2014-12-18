@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0">
+    <scr:component enabled="true" immediate="true" name="dataservices.component">
+        <implementation class="org.wso2.carbon.dataservices.core.internal.DataServicesDSComponent"/>
+        <property name="service.pid" value="dataservices.component"/>
+        <reference name="eventbrokerbuilder.component" interface="org.wso2.carbon.event.core.EventBroker" cardinality="0..1" policy="dynamic" bind="setEventBroker" unbind="unsetEventBroker"/>
+        <reference name="user.realmservice.default" interface="org.wso2.carbon.user.core.service.RealmService" cardinality="1..1" policy="dynamic" bind="setRealmService" unbind="unsetRealmService"/>
+        <reference name="tenant.registryloader" interface="org.wso2.carbon.registry.core.service.TenantRegistryLoader" cardinality="1..1" policy="dynamic" bind="setTenantRegistryLoader" unbind="unsetTenantRegistryLoader"/>
+        <reference name="datasources.service" interface="org.wso2.carbon.ndatasource.core.DataSourceService" cardinality="1..1" policy="dynamic" bind="setDataSourceService" unbind="unsetDataSourceService"/>
+        <reference name="registry.service" interface="org.wso2.carbon.registry.core.service.RegistryService" cardinality="1..1" policy="dynamic" bind="setRegistryService" unbind="unsetRegistryService"/>
+        <reference name="secret.callback.handler.service" interface="org.wso2.carbon.securevault.SecretCallbackHandlerService" cardinality="1..1" policy="dynamic" bind="setSecretCallbackHandlerService" unbind="unsetSecretCallbackHandlerService"/>
+    </scr:component>
+</components>

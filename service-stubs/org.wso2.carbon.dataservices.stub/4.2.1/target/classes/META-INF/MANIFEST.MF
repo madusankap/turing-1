@@ -1,0 +1,42 @@
+Manifest-Version: 1.0
+Export-Package: org.wso2.carbon.dataservices.ui.stub.admin;uses:="java
+ x.xml.stream,org.apache.axis2.databinding,javax.xml.namespace,org.apa
+ che.axis2.databinding.utils,org.apache.axis2.databinding.utils.reader
+ ,org.apache.axiom.om,org.wso2.carbon.dataservices.ui.stub.admin.core.
+ xsd";version="4.2.1",org.wso2.carbon.dataservices.ui.stub;uses:="org.
+ wso2.carbon.dataservices.ui.stub.admin.core.xsd,org.wso2.carbon.datas
+ ervices.ui.stub.admin,org.apache.axis2,org.apache.axis2.transport,org
+ .apache.axis2.client,org.apache.axis2.context,javax.xml.namespace,org
+ .apache.axiom.om,org.apache.axis2.description,org.apache.axiom.soap,o
+ rg.apache.axis2.util,org.apache.axis2.client.async,org.apache.axis2.a
+ ddressing,javax.xml.stream,org.apache.axis2.engine,org.apache.axis2.d
+ atabinding";version="4.2.1",org.wso2.carbon.dataservices.ui.stub.admi
+ n.core.xsd;uses:="javax.xml.stream,org.apache.axis2.databinding.utils
+ ,org.wso2.carbon.dataservices.ui.stub.admin,org.apache.axis2.databind
+ ing,javax.xml.namespace,org.apache.axis2.databinding.utils.reader,org
+ .apache.axiom.om";version="4.2.1"
+JAVA_1_6_HOME: /opt/jdk1.6.0_25
+Built-By: tharindud
+Tool: Bnd-1.43.0
+Bundle-Name: org.wso2.carbon.dataservices.stub
+Created-By: Apache Maven Bundle Plugin
+DynamicImport-Package: *
+Build-Jdk: 1.7.0_07
+Bundle-Version: 4.2.1
+Bnd-LastModified: 1416397273223
+Bundle-ManifestVersion: 2
+Bundle-Description: Platform Parent pom hold the properties, plugins w
+ hich are required to build carbon components, carbon features and pro
+ ducts
+Import-Package: javax.xml.namespace,javax.xml.stream,org.apache.axiom.
+ om;version="[1.2,2)",org.apache.axiom.soap;version="[1.2,2)",org.apac
+ he.axis2;version="[1.6,2)",org.apache.axis2.addressing;version="[1.6,
+ 2)",org.apache.axis2.client;version="[1.6,2)",org.apache.axis2.client
+ .async;version="[1.6,2)",org.apache.axis2.context;version="[1.6,2)",o
+ rg.apache.axis2.databinding;version="[1.6,2)",org.apache.axis2.databi
+ nding.utils;version="[1.6,2)",org.apache.axis2.databinding.utils.read
+ er;version="[1.6,2)",org.apache.axis2.description;version="[1.6,2)",o
+ rg.apache.axis2.engine;version="[1.6,2)",org.apache.axis2.transport;v
+ ersion="[1.6,2)",org.apache.axis2.util;version="[1.6,2)"
+Bundle-SymbolicName: org.wso2.carbon.dataservices.stub
+

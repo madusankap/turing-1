@@ -1,0 +1,44 @@
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<parent>
+		<groupId>org.wso2.carbon</groupId>
+		<artifactId>carbon-dependents</artifactId>
+		<version>4.2.0</version>
+		<relativePath>../../pom.xml</relativePath>
+	</parent>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.gitblit</groupId>
+	<artifactId>gitblit</artifactId>
+	<packaging>bundle</packaging>
+	<name>gitblit.wso2</name>
+	<version>1.4.0.wso2v1</version>
+	<description>This bundle will export packages from gitblit.jar</description>
+	<url>http://wso2.org</url>
+	<dependencies>
+		<dependency>
+			<groupId>com.gitblit</groupId>
+			<artifactId>gitblit</artifactId>
+			<version>1.4.0</version>
+			<scope>system</scope>
+        		<systemPath>${project.basedir}/gitblit-1.4.0.jar</systemPath>
+		</dependency>
+	</dependencies>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.felix</groupId>
+				<artifactId>maven-bundle-plugin</artifactId>
+				<extensions>true</extensions>
+				<configuration>
+					<instructions>
+						<Bundle-SymbolicName>${project.artifactId}</Bundle-SymbolicName>
+						<Bundle-Name>${project.artifactId}</Bundle-Name>
+						<Export-Package>com.gitblit.*,</Export-Package>
+						<Import-Package>!com/gitblit.*,*;resolution:=optional</Import-Package>
+					</instructions>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>
