@@ -51,8 +51,7 @@
     }
 %>
 <fmt:bundle basename="org.wso2.carbon.dataservices.ui.i18n.Resources">
-
-    <table class="styledLeft" id="apiOperationsTable" style="margin-left: 0px;" width="100%">
+    <table class="styledLeft" id="apiOperationsTable" style="margin-left: 0;margin-top: 10px" width="100%">
         <thead>
         <tr>
             <th colspan="2" align="left"><fmt:message key="api.management.menu"/></th>
@@ -65,11 +64,26 @@
                 <td>Published</td>
                 <td>Last Updated</td>
             </tr>
+            <tr>
+                <td colspan="2"><input type="button" value="Update API" /> <input type="button" value="Unpublish API" /> </td>
+            </tr>
+        <tr>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <td>User</td>
+            <td>Action</td>
+        </tr>
+
         <%
             } else {
         %>
             <tr>
-                <td></td>
+                <td>API Name : <input type="text" name="apiName" /> </td>
+                <td>Version : <input type="text" name="apiVersion" /> </td>
+            </tr>
+            <tr>
+                <td><input type="button" value="Publish as an API"></td>
             </tr>
         <%
             }
