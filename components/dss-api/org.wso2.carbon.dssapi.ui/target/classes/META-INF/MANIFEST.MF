@@ -11,7 +11,7 @@ Created-By: Apache Maven Bundle Plugin
 Bundle-Vendor: WSO2 Inc
 Build-Jdk: 1.6.0_45
 Bundle-Version: 4.2.4
-Bnd-LastModified: 1418881832914
+Bnd-LastModified: 1418896178195
 Bundle-ManifestVersion: 2
 Bundle-License: http://www.apache.org/licenses/LICENSE-2.0
 Bundle-Description: WSO2 Data Services API Publisher UI Bundle

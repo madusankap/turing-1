@@ -267,7 +267,7 @@
     <orderEntry type="library" name="Maven: org.jaggeryjs:org.jaggeryjs.scriptengine:0.9.0.ALPHA4.wso2v1" level="project" />
     <orderEntry type="library" name="Maven: org.eclipse.wst.jsdt:org.eclipse.wst.jsdt.debug.rhino.debugger:1.0.300.v201109150503" level="project" />
     <orderEntry type="library" name="Maven: org.eclipse.wst.jsdt:org.eclipse.wst.jsdt.debug.transport:1.0.100.v201109150330" level="project" />
-    <orderEntry type="module" module-name="org.wso2.carbon.apimgt.api" />
+    <orderEntry type="library" name="Maven: org.wso2.carbon:org.wso2.carbon.apimgt.api:1.2.2" level="project" />
     <orderEntry type="library" name="Maven: org.jaggeryjs:org.jaggeryjs.hostobjects.web:0.9.0.ALPHA4.wso2v1" level="project" />
     <orderEntry type="library" name="Maven: org.eclipse.equinox:javax.servlet.jsp:2.2.0.v201112011158" level="project" />
     <orderEntry type="library" name="Maven: org.apache.geronimo.specs:geronimo-servlet_3.0_spec:1.0" level="project" />
