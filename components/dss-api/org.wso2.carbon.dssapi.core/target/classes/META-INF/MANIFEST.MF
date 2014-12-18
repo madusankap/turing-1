@@ -1,17 +1,19 @@
 Manifest-Version: 1.0
 Export-Package: org.wso2.carbon.dssapi.core;uses:="org.wso2.carbon.dss
- api.util,org.wso2.carbon.apimgt.api.model,org.apache.axiom.om.impl.bu
- ilder,org.wso2.carbon.context,org.wso2.carbon.service.mgt,org.apache.
- axiom.om";version="4.2.4",org.wso2.carbon.dssapi.handler;uses:="org.a
- pache.axis2,org.wso2.carbon.apimgt.interceptor,org.wso2.carbon.apimgt
- .interceptor.utils,org.apache.commons.logging,org.wso2.carbon.apimgt.
- core.gateway,org.apache.axis2.context,org.apache.axis2.handlers,org.w
- so2.carbon.apimgt.impl.utils,org.apache.axis2.description,org.wso2.ca
- rbon.apimgt.core.authenticate,org.apache.axis2.engine,org.wso2.carbon
- .apimgt.api,org.wso2.carbon.apimgt.impl.dao,javax.cache,org.wso2.carb
- on.apimgt.interceptor.valve,javax.servlet.http";version="4.2.4",org.w
- so2.carbon.dssapi.util;uses:="org.wso2.carbon.apimgt.api.model,org.ws
- o2.carbon.apimgt.api,org.wso2.carbon.apimgt.impl";version="4.2.4"
+ api.util,org.wso2.carbon.dssapi.model,org.wso2.carbon.apimgt.api.mode
+ l,org.apache.axiom.om.impl.builder,org.wso2.carbon.context,org.apache
+ .axiom.om,org.wso2.carbon.service.mgt";version="4.2.4",org.wso2.carbo
+ n.dssapi.handler;uses:="org.apache.axis2,org.wso2.carbon.apimgt.inter
+ ceptor,org.wso2.carbon.apimgt.interceptor.utils,org.apache.commons.lo
+ gging,org.wso2.carbon.apimgt.core.gateway,org.apache.axis2.context,or
+ g.apache.axis2.handlers,org.wso2.carbon.apimgt.impl.utils,org.apache.
+ axis2.description,org.wso2.carbon.apimgt.core.authenticate,org.apache
+ .axis2.engine,org.wso2.carbon.apimgt.api,org.wso2.carbon.apimgt.impl.
+ dao,javax.cache,org.wso2.carbon.apimgt.interceptor.valve,javax.servle
+ t.http";version="4.2.4",org.wso2.carbon.dssapi.model;version="4.2.4",
+ org.wso2.carbon.dssapi.util;uses:="org.wso2.carbon.apimgt.api.model,o
+ rg.wso2.carbon.apimgt.api,org.wso2.carbon.apimgt.impl";version="4.2.4
+ "
 Ignore-Package: org.wso2.carbon.dataservices.ui.beans,org.wso2.carbon.
  dataservices.core.engine,org.wso2.carbon.dataservices.core.admin
 JAVA_1_6_HOME: /opt/jdk1.6.0_25
@@ -23,7 +25,7 @@ Bundle-Vendor: WSO2 Inc
 DynamicImport-Package: *
 Build-Jdk: 1.6.0_45
 Bundle-Version: 4.2.4
-Bnd-LastModified: 1418881829354
+Bnd-LastModified: 1418896174527
 Bundle-ManifestVersion: 2
 Bundle-License: http://www.apache.org/licenses/LICENSE-2.0
 Bundle-Description: WSO2 Data Services API Publisher Core Bundle

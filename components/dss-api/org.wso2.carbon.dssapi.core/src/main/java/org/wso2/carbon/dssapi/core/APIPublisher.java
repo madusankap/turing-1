@@ -21,9 +21,7 @@ package org.wso2.carbon.dssapi.core;
 
 import org.apache.axiom.om.OMElement;
 import org.apache.axiom.om.impl.builder.StAXOMBuilder;
-import org.apache.axis2.AxisFault;
 import org.wso2.carbon.apimgt.api.model.API;
-import org.wso2.carbon.apimgt.hostobjects.APIProviderHostObject;
 import org.wso2.carbon.context.CarbonContext;
 import org.wso2.carbon.dataservices.common.DBConstants;
 import org.wso2.carbon.dataservices.core.admin.DataServiceAdmin;
@@ -34,7 +32,10 @@ import org.wso2.carbon.service.mgt.ServiceMetaDataWrapper;
 
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.LinkedHashSet;
 import java.util.List;
+import java.util.Set;
 
 /**
  * To handle the API operations
@@ -83,10 +84,18 @@ public class APIPublisher {
      * @param ServiceName name of the service
      * @return List of Api according to DataService
      */
-    public List<API> listApi(String ServiceName) {
+    public org.wso2.carbon.dssapi.model.API[] listApi(String ServiceName) {
         String tenantDomain = CarbonContext.getThreadLocalCarbonContext().getTenantDomain();
         String username = CarbonContext.getThreadLocalCarbonContext().getUsername();
-        return new APIUtil().getApi(ServiceName, username, tenantDomain);
+        List<API> apiList= new APIUtil().getApi(ServiceName, username, tenantDomain);
+        List<org.wso2.carbon.dssapi.model.API> listapi=new ArrayList<org.wso2.carbon.dssapi.model.API>();
+        if(!apiList.isEmpty()){
+            for(API api:apiList){
+                org.wso2.carbon.dssapi.model.API tempapi=new org.wso2.carbon.dssapi.model.API(api.getId().getApiName(),api.getId().getVersion(),api.getLastUpdated(),api.getStatus().getStatus());
+                listapi.add(tempapi);
+            }
+        }
+        return listapi.toArray(new org.wso2.carbon.dssapi.model.API[listapi.size()]);
     }
       /**
      * To add an API for a service
